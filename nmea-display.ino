@@ -1,10 +1,7 @@
 #include <NMEA0183.h>
 #include <NMEA0183Msg.h>
-#include <LiquidCrystal.h>
 
 #include "nmea-handler.h"
-
-LiquidCrystal lcd(13, 12, 11, 10, 9, 8);
 
 tNMEA0183Msg NMEA0183Msg;
 tNMEA0183 NMEA0183;
