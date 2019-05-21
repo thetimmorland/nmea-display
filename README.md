@@ -5,8 +5,8 @@ navigation, so I'm using a computer and [OpenCPN](https://opencpn.org/) to plot
 our course. The only issue with this setup is we would have no way to see any
 status information about our current course without going below deck. To remedy
 this I have created a display which decodes the
-[NEMA0183](http://www.catb.org/gpsd/NMEA.html) using some spare arduino hardware
-I had lying around.
+[NEMA0183](http://www.catb.org/gpsd/NMEA.html) messages output by opencpn using
+some spare arduino hardware I had lying around.
 
 I used this library for decoding the messages output by OpenCPN
 https://github.com/ttlappalainen/NMEA0183
